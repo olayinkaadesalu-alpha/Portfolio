@@ -105,6 +105,14 @@ nav {
     background-size: 200% 200%;
 }
 
+.typing {
+  border-right: 2px solid #0ea5e9; /* cursor color */
+  padding-right: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  font-weight: 600;
+}
+
 .hero p {
     font-size: 1.2rem;
     margin-bottom: 2rem;
@@ -560,6 +568,7 @@ nav {
     background: var(--neon-pink);
 
 }
+
 
 
 
