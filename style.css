@@ -169,7 +169,7 @@ nav {
 }
 .profile-image {
     background-size: cover;
-    background-position: center top;
+    background-position: 50% 20%;
 }
 
 .profile-border {
@@ -563,3 +563,4 @@ nav {
     background: var(--neon-pink);
 
 }
+
