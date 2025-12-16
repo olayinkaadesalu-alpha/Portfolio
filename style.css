@@ -162,14 +162,11 @@ nav {
     height: 300px;
     border-radius: 50%;
     object-fit: cover;
+    object-position: center top;
     border: 5px solid transparent;
     box-shadow: 0 0 20px var(--neon-blue), 0 0 40px var(--neon-purple), 0 0 60px var(--neon-pink);
     animation: glow 4s ease-in-out infinite alternate, float 6s ease-in-out infinite;
     z-index: 1;
-}
-.profile-image {
-    background-size: cover;
-    background-position: 50% 10%;
 }
 
 .profile-border {
@@ -563,5 +560,6 @@ nav {
     background: var(--neon-pink);
 
 }
+
 
 
