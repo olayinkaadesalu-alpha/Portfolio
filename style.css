@@ -167,6 +167,10 @@ nav {
     animation: glow 4s ease-in-out infinite alternate, float 6s ease-in-out infinite;
     z-index: 1;
 }
+.profile-image {
+    background-size: cover;
+    background-position: center top;
+}
 
 .profile-border {
     position: absolute;
@@ -557,4 +561,5 @@ nav {
 
 ::-webkit-scrollbar-thumb:hover {
     background: var(--neon-pink);
+
 }
